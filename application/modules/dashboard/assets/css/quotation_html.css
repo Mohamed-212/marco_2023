@@ -1,0 +1,14 @@
+@media print {
+	.r_cominfo_div{
+	    display: inline-block;width: 66%;
+	}
+	.quotation_div{
+		display: inline-block;margin-left: 5px;
+	}
+	.width_30p{
+	    width: 30%;
+	}
+	.width_70p{
+	    width: 70%;
+	}
+}

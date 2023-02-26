@@ -1,0 +1,16 @@
+assets/pe-icon-7-stroke filter=lfs diff=lfs merge=lfs -text
+assets/plugins filter=lfs diff=lfs merge=lfs -text
+assets/themify-icons filter=lfs diff=lfs merge=lfs -text
+assets/bootstrap filter=lfs diff=lfs merge=lfs -text
+assets/bootstrap-rtl filter=lfs diff=lfs merge=lfs -text
+assets/css filter=lfs diff=lfs merge=lfs -text
+assets/datatables filter=lfs diff=lfs merge=lfs -text
+assets/dist filter=lfs diff=lfs merge=lfs -text
+assets/tinymce filter=lfs diff=lfs merge=lfs -text
+assets/data filter=lfs diff=lfs merge=lfs -text
+assets/font-awesome filter=lfs diff=lfs merge=lfs -text
+assets/fonts filter=lfs diff=lfs merge=lfs -text
+assets/img filter=lfs diff=lfs merge=lfs -text
+assets/installer filter=lfs diff=lfs merge=lfs -text
+assets/js filter=lfs diff=lfs merge=lfs -text
+assets/website filter=lfs diff=lfs merge=lfs -text

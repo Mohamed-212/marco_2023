@@ -1,0 +1,9 @@
+/.idea
+/application/config/database.php
+/application/logs
+/application/cache
+/my-assets/js/admin_js/json/product.json
+/my-assets/js/admin_js/json/user.json
+/my-assets/js/admin_js/json/supplier.json
+/my-assets/js/admin_js/json/customer.json
+/my-assets/js/admin_js/json/company.json

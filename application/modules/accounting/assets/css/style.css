@@ -1,0 +1,31 @@
+.test{
+	color: #000;
+}
+.demo{
+	font-weight: bold;
+}
+.payment-row{
+	margin-bottom: 0px;
+}
+.pv-submit{
+	margin-top: 18%;
+}
+.g_l_balance{
+	height: 80px;
+	margin-left: 0%
+}
+.g_v_h_balance{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+.g_l_date_range{
+	height: 40px;
+}
+.g_v_h_date_range{
+	margin-top: 5px;
+    margin-bottom: 5px;
+}
+.signature_row{
+	margin-top: 70px;
+	height: 40px;
+}
