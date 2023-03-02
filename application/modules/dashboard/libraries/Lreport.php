@@ -1141,16 +1141,20 @@ class Lreport
         $totalSupplierPrice = 0;
         $totalSellPrice = 0;
         $count = 0;
+        $totalCost = 0;
+        $totalPrice = 0;
         foreach ($stock_reports as $fo) {
             $totalPurchase += (int)$fo['totalPurchaseQnty'];
             $totalSales += (int)$fo['totalSalesQnty'];
             $totalBalance += (int)$fo['totalPurchaseQnty'] - (int)$fo['totalSalesQnty'];
             $totalSupplierPrice += (float)$fo['supplier_price'];
             $totalSellPrice += (float)$fo['selected_price'];
+            $totalCost += (float)$fo['totalPurchaseQnty'] * (float)$fo['supplier_price'];
+            $totalPrice += (float)$fo['totalPurchaseQnty'] * (float)$fo['selected_price'];
             $count++;
         }
 
-        return compact('totalPurchase', 'totalSales', 'totalBalance', 'totalSupplierPrice', 'totalSellPrice', 'count');
+        return compact('totalPurchase', 'totalSales', 'totalBalance', 'totalSupplierPrice', 'totalSellPrice', 'count', 'totalCost', 'totalPrice');
 
         // return $stock_reports;
     }

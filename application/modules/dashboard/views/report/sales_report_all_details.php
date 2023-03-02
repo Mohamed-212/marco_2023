@@ -457,13 +457,13 @@
 											<th><?= number_format($footer['totalBalance']) ?></th>
 											<th><?= number_format($footer['totalSupplierPrice'], 2, '.', ',') ?></th>
 											<th>
-												<?= number_format($footer['totalSupplierPrice'] * $footer['totalBalance'], 2) ?>
+												<?= number_format($footer['totalCost'], 2) ?>
 											</th>
 											<th>
 												<?= number_format($footer['totalSellPrice'], 2) ?>
 											</th>
 											<th>
-												<?= number_format($footer['totalSellPrice'] * $footer['totalBalance'], 2) ?>
+												<?= number_format($footer['totalPrice'], 2) ?>
 											</th>
 										</tr>
 									</tbody>
