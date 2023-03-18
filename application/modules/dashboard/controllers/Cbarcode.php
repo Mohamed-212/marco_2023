@@ -86,7 +86,7 @@ class Cbarcode extends MX_Controller
     public function barcode_generator($product_id, $year = null)
     {
 
-        $code_type = "code39";
+        $code_type = "code128";
         $size = "40";
         $print = TRUE;
         $filepath = "";
