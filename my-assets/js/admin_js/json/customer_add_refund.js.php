@@ -1,4 +1,4 @@
-"use strict";
+"use strict"
 <?php
 $cache_file = "customer.json";
    header('Content-Type: text/javascript; charset=utf8');
