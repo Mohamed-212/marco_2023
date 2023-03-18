@@ -93,9 +93,9 @@ class Admin_dashboard extends MX_Controller
             'returning_customers'        => $returning_customers->returning_customers,
             'monthly_new_customers'      => $monthly_new_customers,
             'monthly_returning_customers' => $monthly_returning_customers,
-            'average_spending_per_visit' => $average_spending_per_visit,
+            'average_spending_per_visit'  => $average_spending_per_visit,
             'average_visits_per_customer' => $average_visits_per_customer,
-            'positive_review_count'      => $positive_review_count,
+            'positive_review_count'       => $positive_review_count,
         );
 
         $content = $this->parser->parse('dashboard/home/home', $data, true);
